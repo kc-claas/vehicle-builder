@@ -16,7 +16,7 @@ Requires node.js. To install, first download the repository, and open its root d
 ## Usage
 Upon opening the application, you will be met with a series of prompts. The first will be to create a vehicle or select an existing one. If you choose to create one, you'll be given a series of prompts requesting information about the vehicle being created. On completing all prompts, or if you chose to select an existing vehicle, you'll be given a set of operations that can be performed with the selected vehicle, such as starting the vehicle or accelerating it. 
 
-A video demonostration can be found [here]().
+A video demonostration can be found [here](https://drive.google.com/file/d/1u_h3xaEnTCLpOOQ32lAYL7x-p051b-Jy/view).
 
 ## License
 This application is covered under the [MIT](./LICENSE) license.
