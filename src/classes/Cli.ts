@@ -181,11 +181,11 @@ class Cli {
           answers.color,
           answers.make,
           answers.model,
-          answers.year,
-          answers.weight,
-          answers.topSpeed,
+          parseInt(answers.year),
+          parseInt(answers.weight),
+          parseInt(answers.topSpeed),
           [],
-          answers.towingCapacity
+          parseInt(answers.towingCapacity)
         )
         this.vehicles.push(truck)
         this.selectedVehicleVin = truck.vin
@@ -258,9 +258,9 @@ class Cli {
           answers.color,
           answers.make,
           answers.model,
-          answers.year,
-          answers.weight,
-          answers.topSpeed,
+          parseInt(answers.year),
+          parseInt(answers.weight),
+          parseInt(answers.topSpeed),
           [new Wheel(answers.frontWheelDiameter, answers.frontWheelBrand), new Wheel(answers.rearWheelDiameter, answers.rearWheelBrand)],
         )
         this.vehicles.push(motorbike)
