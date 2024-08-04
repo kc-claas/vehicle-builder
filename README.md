@@ -8,11 +8,10 @@ This application allows you to build and operate cars, trucks, and motorbikes. T
 - [Usage](#usage)
 - [License](#license)
 - [Contribution](#contribution)
-- [Test](#test)
 - [Questions](#questions)
 
 ## Installation
-To install, first download the repository, and open its root directory in your terminal. Enter 'npm install' to download the necessary node modules. Then enter 'node /dist.index.js' to run the application.
+Requires node.js. To install, first download the repository, and open its root directory in your terminal. Enter 'npm install' to download the necessary node modules. Then enter 'npm run start' to transpile and run the application.
 
 ## Usage
 Upon opening the application, you will be met with a series of prompts. The first will be to create a vehicle or select an existing one. If you choose to create one, you'll be given a series of prompts requesting information about the vehicle being created. On completing all prompts, or if you chose to select an existing vehicle, you'll be given a set of operations that can be performed with the selected vehicle, such as starting the vehicle or accelerating it. 
@@ -20,7 +19,7 @@ Upon opening the application, you will be met with a series of prompts. The firs
 A video demonostration can be found [here]().
 
 ## License
-This application is covered under the [MIT](./LICENSE) license
+This application is covered under the [MIT](./LICENSE) license.
 
 ## Contribution
 If you would like to contribute, you may do so with your own repository fork or contact me about becoming a contributor to the original repo.
